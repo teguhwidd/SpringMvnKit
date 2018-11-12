@@ -100,9 +100,9 @@
 		e.preventDefault();
 		$("#myModal").modal("hide");
 		var url= $(this).attr("href");
-		alert(url);
 		$(".view-url").attr("src",url);
     	$("#detail").modal("show");
+    	$('iframe').attr('src', $('iframe').attr('src'));
 	});
 	
 	</script>
