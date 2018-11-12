@@ -1,0 +1,284 @@
+body{
+	background-color: #194CB1;
+}
+input{
+	height: 20px;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+input[type="radio"] {
+	padding-top: 10px;
+}
+
+select[disabled] { background-color: #e6e6e6; }
+select{
+	height: 25px;
+}
+
+.container{
+	height: 100%;
+	width: 100%;
+	background-color: #194CB1;
+	padding-top: 20px;
+}
+.box{
+	height: 500px;
+	/*border: 1px solid; */
+	width: 800px;
+	margin: 10px auto;
+	padding: 15px;
+	background-color: white;
+	border-radius: 15px;
+	
+}
+.header{
+	height: 70px;
+	width: 100%;
+	/*border: 1px solid; */
+}
+.header >.up{
+	height: 20px;
+	width: 100%;
+	background-color: #E8CF19;
+}
+.header >.down{
+	height: 50px;
+	width: 100%;
+	background-color: #4F53B6;
+	float: left;
+}
+.down > .left{
+	height: auto;
+	width: 350px;
+	color: white;
+	float: left;
+	text-align: right;
+	padding-top: 10px;
+}
+.down > .right{
+	height: auto;
+	width: 400px;
+	color: white;
+	float: left;
+	text-align: right;
+	padding-top: 10px;
+}
+.header >.klik{
+	position: absolute;
+	z-index: 2;
+	top: 45px;
+	left: 300px;
+}
+.ano a:link { font-size:14px;color:white;text-decoration: none; }
+.ano a:visited { font-size:15px;color:white;text-decoration: none; }
+.ano a:hover { font-size:16px;color:white;text-decoration: none; }
+.ano a:active { font-size:17px;color:white;text-decoration: none; }
+
+p .20{
+	font-size: 24px;
+}
+.pl20{
+	padding-left: 20px;
+}
+.body{
+	height: 100%;
+	width: 100%;
+}
+.body > .side{
+	height: 400px;
+	width: 25%;
+	background-color: #6687DF;
+	float: left;
+}
+.body > .main{
+	height: 379px;
+	width: 72%;
+	background-color: white;
+	border: 1px solid grey;
+	border-radius: 15px;
+	float: left;
+	padding: 10px;
+}
+.main > .time{
+	height: 20px;
+	width: 73%;
+	background-color: #E7D300;
+	color: white;
+	float: left;
+	padding-left: 20px;
+	padding-top: 5px;
+}
+.main > .left{
+	height: 25px;
+	width: 23%;
+	background-color: #4B55B6;
+	float: left;
+}
+.main > .judul{
+	height: 20px;
+	width: 96%;
+	background-color: #8485DD;
+	color: white;
+	float: left;
+	padding-left: 20px;
+	padding-top: 5px;
+}
+.main > .last{
+	height: 25px;
+	width: 96%;
+	float: left;
+	margin-bottom: 30px;
+	padding-left: 3px;
+}
+.main > .jeda{
+	height: 25px;
+	width: 96%;
+	float: left;
+	padding-left: 3px;
+	padding-top: 10px;
+}
+.main > .content{
+	padding: 30px 0 20px 0;
+}
+.content > .isi {
+	padding: 0;
+	/*overflow-y: scroll;*/
+}
+.td2{
+	width: 50%;
+}
+.underline{
+	text-decoration-line: underline;
+	color: #00018F;
+}
+.orange{
+	color: #FC9E00;
+}
+.blue{
+	color: #00018F;
+}
+.side > .caption-white{
+	color: white;
+	padding: 30px 20px 30px 20px;
+}
+.footer{
+	clear: both;
+	height: 30px;
+	min-width: 100%;
+	text-align: center;
+	background-color: blue;
+	color: white;
+	padding-top: 5px;
+}
+
+
+/* Style the sidenav links and the dropdown button */
+.sidenav a, .dropdown-btn {
+    padding: 4px 6px 4px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+}
+
+/* On mouse-over */
+.sidenav a:hover, .dropdown-btn:hover {
+    color: white;
+}
+
+
+/* Add an active class to the active dropdown button */
+.active {
+    color: white;
+}
+
+.dropdown-container {
+    display: none;
+    padding-left: 10px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+    float: right;
+    padding-right: 8px;
+}
+
+/* Some media queries for responsiveness */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+}
+
+table {
+  margin: 0 auto;
+  min-width: 100%;
+  width: 550px;
+  border-collapse: collapse;
+}
+tbody {
+  color: #000;
+}
+table th, table td {
+  padding: 3px 10px;
+  /*border: 2px solid #EEF7FB;*/
+}
+table tr {
+  font: normal 14px Tahoma, Geneva, sans-serif;
+  background: #d6e0f5;
+}
+
+table tr:nth-child(2n+0) {
+  background: #ebf0fa;
+}
+table td:hover, table td:nth-child(2n+0):hover {
+  background: #ebf0fa;
+}
+table th {
+  background: #3EA4D0;
+  color: #DAEEF6;
+  /*font: bold 16px Arial, Helvetica, sans-serif;*/
+  font: bold 16px;
+}
+
+
+.error {
+	padding: 15px;
+	margin-bottom: 20px;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	color: #a94442;
+	background-color: #f2dede;
+	border-color: #ebccd1;
+}
+
+.msg {
+	padding: 15px;
+	margin-bottom: 20px;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	color: #31708f;
+	background-color: #d9edf7;
+	border-color: #bce8f1;
+}
+
+#login-box {
+	width: 300px;
+	padding: 20px;
+	margin: 100px auto;
+	background: #fff;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border: 1px solid #000;
+}
